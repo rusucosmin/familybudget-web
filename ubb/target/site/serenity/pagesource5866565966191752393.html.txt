@@ -1,0 +1,43 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <title>FamilybudgetWeb</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Oh5Gp5YgLF0VrsHD/mM2ZhEMneEqgcyQsk3ypIGJk5f7DLfi5kuCDyqja5i1NejZPeaRwXJom8elGrUdbIRchQ==" />
+
+    <link rel="stylesheet" media="all" href="/assets/application.self-38805ee10e47aa088c208399eabf2b9c1f60a3fd12b4d386792189bb7faebb0a.css?body=1" data-turbolinks-track="reload" />
+    <script src="/assets/rails-ujs.self-8944eaf3f9a2615ce7c830a810ed630e296633063af8bb7441d5702fbe3ea597.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/members.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/application.self-eba3cb53a585a0960ade5a8cb94253892706bb20e3f12097a13463b1f12a4528.js?body=1" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <p id="notice">Could not save member. Check the errors.</p>
+
+<h1>New Member</h1>
+
+<form action="/members" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" /><input type="hidden" name="authenticity_token" value="Oh5Gp5YgLF0VrsHD/mM2ZhEMneEqgcyQsk3ypIGJk5f7DLfi5kuCDyqja5i1NejZPeaRwXJom8elGrUdbIRchQ==" />
+    <div id="error_explanation">
+      <h2>1 error prohibited this member from being saved:</h2>
+
+      <ul>
+        <li>Name can't be blank</li>
+      </ul>
+    </div>
+
+  <div class="field">
+    <div class="field_with_errors"><label for="member_name">Name</label></div>
+    <div class="field_with_errors"><input id="member_name" type="text" value="" name="member[name]" /></div>
+  </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Create Member" data-disable-with="Create Member" />
+  </div>
+</form>
+
+<a href="/members">Back</a>
+
+  
+
+</body></html>

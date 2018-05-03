@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add member story ddt","Create member test DDT","SUCCESS","2018-05-03T10:32:44.686+03:00[Europe/Bucharest]","0.0","10.98"
+"Search by keyword story ddt","Search wiki by keyword test DDT","ERROR","2018-05-02T11:12:15.997+03:00[Europe/Bucharest]","0.0","82.09"
+"Search by keyword story","Searching by ambiguious keyword should display the disambiguation page","PENDING","2018-05-02T11:08:37.063+03:00[Europe/Bucharest]","0.0","0.16"
+"Search by keyword story","Searching by keyword dog should display the corresponding article","SUCCESS","2018-05-03T10:34:36.902+03:00[Europe/Bucharest]","0.0","10.24"
+"Search by keyword story","Searching by keyword cat should display the corresponding article","SUCCESS","2018-05-03T10:34:47.378+03:00[Europe/Bucharest]","0.0","6.84"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2018-05-03T10:34:54.246+03:00[Europe/Bucharest]","0.0","6.43"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2018-05-03T10:35:00.7+03:00[Europe/Bucharest]","0.0","6.54"
